@@ -7,7 +7,7 @@
 I build the data layer that AI-powered GTM automation doesn't break.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajasekharnagella)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=netlify&logoColor=white)](https://rajasekharnagella.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=netlify&logoColor=white)](https://rajasekharnagella.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rajasekharnagella24@gmail.com)
 
 </div>
