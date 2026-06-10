@@ -41,7 +41,7 @@ Lead pipelines that take a raw company list and produce HubSpot-ready, AI-person
 
 | Project | What it does |
 |---------|-------------|
-| [gtm-data-orchestration-stack](https://github.com/Rajasekhar-Chowdary/gtm-data-orchestration-stack) | End-to-end GTM pipeline: webhook → Claude API opener generation → Supabase enrichment log → HubSpot contact. SQL migrations, n8n workflow exports, Python scripts. |
+| [gtm-data-orchestration-stack](https://github.com/Rajasekhar-Chowdary/gtm-data-orchestration-stack) | End-to-end GTM pipeline: webhook → Claude API opener generation → Supabase enrichment log → HubSpot contact. 7 SQL migrations, n8n workflow exports, analytics views for waterfall economics. |
 | [alteryx-autodocs](https://github.com/Rajasekhar-Chowdary/alteryx-autodocs) | Auto-generate Word, PDF, and HTML documentation from Alteryx .yxmd workflows. |
 
 ---
