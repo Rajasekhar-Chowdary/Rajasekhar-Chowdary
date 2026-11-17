@@ -2,9 +2,9 @@
 
 # Rajasekhar Nagella
 
-**GTM Data Orchestration Engineer**
+**Analytics Engineer**
 
-I build the enrichment, scoring, and routing layer between raw data sources and the CRM.
+I turn slow, manual Excel reporting into tested SQL pipelines and dashboards.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajasekharnagella)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://rajasekharnagella.vercel.app/)
@@ -14,26 +14,23 @@ I build the enrichment, scoring, and routing layer between raw data sources and 
 
 ---
 
-### What I build
+### What I do
 
-Lead pipelines that take a raw company list and produce HubSpot-ready, AI-personalized outreach in under 10 seconds — no human in the loop.
+5+ years building ETL pipelines, workflow automation and BI reporting across tax and media analytics.
 
-- **n8n orchestration** — webhook trigger → Clay enrichment → Claude API → Supabase logging → HubSpot contact creation (live, end-to-end)
-- **Clay waterfall enrichment** — 3-provider waterfall + Claygent, 50-row enriched table
-- **Supabase schema** — leads, enrichment_log, workflow_runs tables with RLS and SQL migrations
-- **5 years production data engineering** — Amazon Redshift, SQL, Alteryx (50+ workflows), Power BI
+- **Baker Tilly** — replaced a 13–14 hour monthly tax reporting process with Alteryx workflows, SQL checks and Power BI. It now runs in about 5 minutes.
+- **Omnicom Media Group** — moved campaign reporting for 100+ campaigns from Excel into Amazon Redshift. Report building went from a full day to about 3 hours.
+- Built around 100 automation workflows and dashboards; validation checks lifted data accuracy to 99% and cut reconciliation discrepancies by 94%.
 
 ---
 
 ### Stack
 
-**Orchestration** — n8n · Python 3.11 · REST APIs · Git
+**Modelling & warehouse** — SQL · Amazon Redshift · dbt · Snowflake
 
-**Enrichment & AI** — Clay (waterfall + Claygent) · Claude API · HubSpot (RevOps certified ✅)
+**Pipelines & automation** — Alteryx (Designer & Server) · Python · Git · GitHub Actions
 
-**Data** — SQL · Amazon Redshift · Supabase (PostgreSQL) · Alteryx
-
-**Analytics** — Power BI · DAX
+**BI & analytics** — Power BI · DAX · Excel
 
 ---
 
@@ -41,33 +38,14 @@ Lead pipelines that take a raw company list and produce HubSpot-ready, AI-person
 
 | Project | What it does |
 |---------|-------------|
-| [gtm-data-orchestration-stack](https://github.com/Rajasekhar-Chowdary/gtm-data-orchestration-stack) | End-to-end GTM pipeline: webhook → Claude API opener generation → Supabase enrichment log → HubSpot contact. 7 SQL migrations, n8n workflow exports, analytics views for waterfall economics. |
-| [alteryx-autodocs](https://github.com/Rajasekhar-Chowdary/alteryx-autodocs) | Auto-generate Word, PDF, and HTML documentation from Alteryx .yxmd workflows. |
+| [alteryx-autodocs](https://github.com/Rajasekhar-Chowdary/alteryx-autodocs) | Auto-generate Word, PDF and HTML documentation from Alteryx .yxmd workflows. |
+| [gtm-data-orchestration-stack](https://github.com/Rajasekhar-Chowdary/gtm-data-orchestration-stack) | Webhook-triggered pipeline into PostgreSQL (Supabase): 7 SQL migrations, enrichment logging and analytics views. |
 
 ---
 
-### Numbers
+### Currently building
 
-| What | Result |
-|------|--------|
-| Production Alteryx workflows | 50+ |
-| Pipeline end-to-end latency (Workflow 2) | < 10 seconds |
-| B2B campaign clients (Omnicom) | AT&T · FirstNet · AlienVault |
-| HubSpot certifications | RevOps ✅ |
+- **E-commerce analytics with dbt + Snowflake** — the Olist dataset as a Kimball star schema, with tests, docs, CI on GitHub Actions and a Power BI report on the marts.
+- **Tax & regulatory reporting warehouse** — Python ingestion, dbt snapshots, Airflow in Docker, CI.
 
----
-
-### Currently
-
-- Workflow 2 live: Clay CSV → Claude API (haiku) → Supabase `enrichment_log` → HubSpot contact
-- HubSpot CRM Fundamentals certification — in progress
-- Open to remote GTM Engineer · RevOps Engineer · GTM Data Engineer roles
-- Target markets: AU · UK / NL · SG · CA · US (sponsorship required)
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Rajasekhar-Chowdary&color=0077B5&style=flat-square&label=visitors)
-
-</div>
+Open to Analytics Engineer and Data Engineer roles — Bengaluru, remote, or abroad.
