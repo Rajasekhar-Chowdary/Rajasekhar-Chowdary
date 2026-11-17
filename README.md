@@ -39,7 +39,6 @@ I turn slow, manual Excel reporting into tested SQL pipelines and dashboards.
 | Project | What it does |
 |---------|-------------|
 | [alteryx-autodocs](https://github.com/Rajasekhar-Chowdary/alteryx-autodocs) | Auto-generate Word, PDF and HTML documentation from Alteryx .yxmd workflows. |
-| [gtm-data-orchestration-stack](https://github.com/Rajasekhar-Chowdary/gtm-data-orchestration-stack) | Webhook-triggered pipeline into PostgreSQL (Supabase): 7 SQL migrations, enrichment logging and analytics views. |
 
 ---
 
